@@ -45,14 +45,14 @@ a {
     padding: 0px 30px;
 }
 
-.overflow-x-hidden {
-    overflow-x: hidden;
-}
-
 /* header css */
 header {
     border-bottom: 1px solid #ddd5d5;
     padding: 14px 0;
+}
+
+.header-content {
+    overflow-x: hidden;
 }
 
 .logo {
@@ -121,10 +121,11 @@ header {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .left-content {
-    width: 46%;
+    width: 47%;
     float: left;
     text-align: right;
 }
@@ -136,7 +137,7 @@ header {
 }
 
 .right-content {
-    width: 46%;
+    width: 47%;
     float: right;
     text-align: left;
 }
@@ -146,6 +147,10 @@ header {
 }
 
 /* service section css */
+.services {
+    overflow-x: hidden;
+}
+
 .service-item {
     width: 31%;
     float: left;
