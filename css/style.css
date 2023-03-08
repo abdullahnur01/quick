@@ -76,7 +76,9 @@ header {
     font-size: 16px;
     text-transform: capitalize;
 }
-
+.navbar li:first-child {
+    margin-left: 0;
+}
 .navbar li a {
     display: block;
     padding: 8px 10px;
